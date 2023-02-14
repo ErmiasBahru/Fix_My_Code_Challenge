@@ -33,7 +33,7 @@ class Square:
 
     def __str__(self):
         """ String representation of the square """
-        return "{}/{}".format(self.width, self.height)
+        return f"{self.width}/{self.height}"
 
 
 if __name__ == "__main__":
